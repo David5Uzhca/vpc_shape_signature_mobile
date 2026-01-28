@@ -1,0 +1,42 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ==================== Android Studio / Gradle estándar ====================
+*.iml
+.gradle
+/build/
+local.properties
+/.idea/
+.DS_Store
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+output-metadata.json
+
+# Gradle wrapper (puedes incluirlo o no, pero normalmente sí se sube)
+# !gradle/
+# !gradlew
+# !gradlew.bat
+# !gradle.properties
+
+# ==================== OpenCV-android-sdk (muy pesado - NO subir) ====================
+OpenCV-android-sdk/
+OpenCV-android-sdk/**
+
+# Si usaste jniLibs copiado de OpenCV (a veces se hace)
+# app/src/main/jniLibs/
